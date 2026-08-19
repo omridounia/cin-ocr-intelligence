@@ -1,0 +1,17 @@
+{
+  "name": "cin-ocr-intelligence",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Proof of concept d’intelligence documentaire locale pour l’extraction sécurisée de données depuis des spécimens fictifs de CIN marocaine.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  }
+}
